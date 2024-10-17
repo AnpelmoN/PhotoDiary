@@ -17,3 +17,111 @@ p {
 div {
   text-align: center;
 }
+img {
+  border-radius: 5px;
+  border: 4px;
+  border-color: rgb(235, 144, 110);
+  border-style: outset;
+  background-color: white;
+  width: 300px;
+}
+h1 {
+  text-align: center;
+  border-radius: 5px;
+}
+button {
+  background-color: rgb(238, 147, 83);
+
+  border-color: rgb(238, 147, 83);
+}
+td {
+  border: 3px;
+  border-color: rgb(233, 181, 122);
+  border-style: solid;
+  border-radius: 20px;
+  padding: 5px;
+}
+.tablei {
+  margin: 5px;
+  padding: 3px;
+}
+.main {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+.leftbutton {
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: none;
+  font-weight: bold;
+  transition: 15ms;
+  position: absolute;
+  left: 0;
+}
+.leftbutton:hover {
+  transform: scale(1.05);
+}
+
+.rightbutton {
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: none;
+  font-weight: bold;
+  transition: 15ms;
+  position: absolute;
+  right: 0;
+}
+.rightbutton:hover {
+  transform: scale(1.05);
+}
+.img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.head {
+  color: rgb(245, 127, 16);
+  font-weight: bold;
+  transition: 0.3s;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  display: inline-table;
+}
+.head:hover {
+  transform: scale(1.5);
+  text-decoration: none;
+  color: rgb(245, 127, 16);
+}
+.head:active {
+  color: black;
+  text-decoration: none;
+}
+.head:visited {
+  color: rgb(201, 101, 8);
+  text-decoration: none;
+}
+.nav {
+  text-align: center;
+}
+.buy {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.buy:visited {
+  color: purple;
+}
+.buy:hover {
+  color: green;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 172, 230);
+}
