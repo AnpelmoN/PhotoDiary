@@ -3,43 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RUBIKS</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <div class="nav">
-          <table>
-            <tr>
-              <a class="head" href="../index.html">RUBIKS CUBE</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/setup.html">SET-UP</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/music.html">MUSIC</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/games.html">GAMES</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/pc.html">PC</a>
-            </tr>
-          </table>
-        </div>
-      </nav>
+      <ul class="nav">
+        <li><a class="head" href="../index.html">RUBIKS CUBE</a></li>
+        <li><a class="head" href="../pages/setup.html">SET-UP</a></li>
+        <li><a class="head" href="../pages/music.html">MUSIC</a></li>
+        <li><a class="head" href="../pages/games.html">GAMES</a></li>
+        <li><a class="head" href="../pages/pc.html">PC</a></li>
+        <li><a href="../pages/meals.html" class="head">MEALS</a></li>
+      </ul>
     </header>
     <main>
       <section>
         <h1>MY FAVORITES GAMES</h1>
-        <table class="tablei">
-          <tr>
-            <td>
+        <div class="container">
+          <ul class="card-item">
+            <li>
               <p class="main">Shooter</p>
-              <div class="img">
-                <img src="../img/games/cs2.jpg" alt="CS2" />
-              </div>
+              <img src="../img/games/cs2.jpg" alt="CS2" />
+            </li>
+            <li>
               <h3>Counter-Strike 2</h3>
               <p>
                 Counter-Strike 2 — це безкоштовне оновлення до CS:GO, яке
@@ -55,13 +42,16 @@
                 target="_blank"
                 >Грати тут</a
               >
-            </td>
-
-            <td>
+            </li>
+          </ul>
+          <ul class="card-item">
+            <li>
               <p class="main">Rogue-LITE</p>
               <div class="img">
                 <img src="../img/games/54-16.jpg" alt="rogue-legacy-2" />
               </div>
+            </li>
+            <li>
               <h3>Rogue Legacy 2</h3>
               <p>
                 Rogue Legacy 2 — це платформна відеогра, розроблена та
@@ -78,10 +68,11 @@
                 target="_blank"
                 >Грати тут</a
               >
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </li>
+          </ul>
+
+          <ul class="card-item">
+            <li>
               <p class="main">Metroidvania</p>
               <div class="img">
                 <img
@@ -89,6 +80,8 @@
                   alt="hollow-knight"
                 />
               </div>
+            </li>
+            <li>
               <h3>Hollow Knight</h3>
               <p>
                 Hollow Knight — відеогра Metroidvania 2017 року , розроблена та
@@ -107,13 +100,16 @@
                 target="_blank"
                 >Грати тут</a
               >
-            </td>
-            <td>
+            </li>
+          </ul>
+          <ul class="card-item">
+            <li>
               <p class="main">Roguelike</p>
               <div class="img">
                 <img src="../img/games/dead-cells.jpg" alt="dead-cells" />
               </div>
-
+            </li>
+            <li>
               <h3>Dead Cells</h3>
               <p>
                 Dead Cells 2018 року гра рогалик — Metroidvania , розроблена
@@ -133,15 +129,16 @@
                 target="_blank"
                 >Грати тут</a
               >
-            </td>
-          </tr>
-        </table>
+            </li>
+          </ul>
+        </div>
         <div class="button">
-          <button class="leftbutton">
+          <button>
             <a href="../pages/music.html"><span>&#8701;</span> MUSIC</a>
           </button>
-          <button class="rightbutton">
-            <a href="../pages/pc.html">PC <span>&#8702;</span></a>
+          <button>
+            <a href="../pages/pc.html">PC <span>&#8702;</span></a
+            >>
           </button>
         </div>
       </section>

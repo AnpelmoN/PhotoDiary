@@ -3,43 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RUBIKS</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <div class="nav">
-          <table>
-            <tr>
-              <a class="head" href="../index.html">RUBIKS CUBE</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/setup.html">SET-UP</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/music.html">MUSIC</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/games.html">GAMES</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/pc.html">PC</a>
-            </tr>
-          </table>
-        </div>
-      </nav>
+      <ul class="nav">
+        <li><a class="head" href="../index.html">RUBIKS CUBE</a></li>
+        <li><a class="head" href="../pages/setup.html">SET-UP</a></li>
+        <li><a class="head" href="../pages/music.html">MUSIC</a></li>
+        <li><a class="head" href="../pages/games.html">GAMES</a></li>
+        <li><a class="head" href="../pages/pc.html">PC</a></li>
+        <li><a href="../pages/meals.html" class="head">MEALS</a></li>
+      </ul>
     </header>
     <main>
       <section>
         <h1>MY SET-UP</h1>
-        <table class="tablei">
-          <tr>
-            <td>
+        <div class="container">
+          <ul class="card-item">
+            <li>
               <p class="main">My keyboard</p>
-              <div class="img">
-                <img src="../img/setup/RK84.jpg" alt="RK84" />
-              </div>
+              <img src="../img/setup/RK84.jpg" alt="RK84" />
+            </li>
+            <li>
               <h3>RK ROYAL KLUDGE RK84</h3>
               <p>
                 75% формат, потрійний режим підключення BT5.0/2.4G/USB-C, Жовтий
@@ -56,13 +43,16 @@
                 target="_blank"
                 >Купити тут</a
               >
-            </td>
-
-            <td>
+            </li>
+          </ul>
+          <ul class="card-item">
+            <li>
               <p class="main">My Mouse</p>
               <div class="img">
                 <img src="../img/setup/aj159.jpg" alt="AJ159" />
               </div>
+            </li>
+            <li>
               <h3>AJAZZ AJ159 APEX</h3>
               <p>
                 Бездротова ігрова миша з 8К герц, Флагманський сенсор PixArt
@@ -78,14 +68,17 @@
                 target="_blank"
                 >Купити тут</a
               >
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </li>
+          </ul>
+
+          <ul class="card-item">
+            <li>
               <p class="main">My Microphone</p>
               <div class="img">
                 <img src="../img/setup/fifine.jpg" alt="fifine" />
               </div>
+            </li>
+            <li>
               <h3>FIFINE a6v</h3>
               <p>
                 Ігровий мікрофон FIFINE має: Градієнт RGB: хроматична зміна RGB
@@ -104,13 +97,16 @@
                 target="_blank"
                 >Купити тут</a
               >
-            </td>
-            <td>
+            </li>
+          </ul>
+          <ul class="card-item">
+            <li>
               <p class="main">My Headphones</p>
               <div class="img">
                 <img src="../img/setup/q45.jpg" alt="q45" />
               </div>
-
+            </li>
+            <li>
               <h3>Soundcore by Anker Space Q45</h3>
               <p>
                 Bluetooth-навушники soundcore by Anker Space Q45 мають: Чіткий
@@ -131,14 +127,14 @@
                 target="_blank"
                 >Купити тут</a
               >
-            </td>
-          </tr>
-        </table>
+            </li>
+          </ul>
+        </div>
         <div class="button">
-          <button class="leftbutton">
+          <button>
             <a href="../index.html"><span>&#8701;</span> CUBE</a>
           </button>
-          <button class="rightbutton">
+          <button>
             <a href="../pages/music.html">MUSIC <span>&#8702;</span></a>
           </button>
         </div>

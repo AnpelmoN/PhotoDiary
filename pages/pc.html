@@ -3,43 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RUBIKS</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <div class="nav">
-          <table>
-            <tr>
-              <a class="head" href="../index.html">RUBIKS CUBE</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/setup.html">SET-UP</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/music.html">MUSIC</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/games.html">GAMES</a>
-            </tr>
-            <tr>
-              <a class="head" href="../pages/pc.html">PC</a>
-            </tr>
-          </table>
-        </div>
-      </nav>
+      <ul class="nav">
+        <li><a class="head" href="../index.html">RUBIKS CUBE</a></li>
+        <li><a class="head" href="../pages/setup.html">SET-UP</a></li>
+        <li><a class="head" href="../pages/music.html">MUSIC</a></li>
+        <li><a class="head" href="../pages/games.html">GAMES</a></li>
+        <li><a class="head" href="../pages/pc.html">PC</a></li>
+        <li><a href="../pages/meals.html" class="head">MEALS</a></li>
+      </ul>
     </header>
     <main>
       <section>
         <h1>MY PC</h1>
-        <table class="tablei">
-          <tr>
-            <td>
+        <div class="container">
+          <ul class="card-item">
+            <li>
               <p class="main">MOTHERBOARD</p>
-              <div class="img">
-                <img src="../img/pc/B450.png" alt="b450m" />
-              </div>
+              <img src="../img/pc/B450.png" alt="b450m" />
+            </li>
+            <li>
               <h3>
                 Материнська плата AMD B450 Ultra Durable із Realtek ® GbE LAN із
                 cFosSpeed, PCIe Gen3 x4 M.2, підтримка 7-кольорових
@@ -77,13 +64,20 @@
                 target="_blank"
                 >Більше інформаціі тут</a
               >
-            </td>
-
-            <td>
+            </li>
+          </ul>
+          <ul class="card-item">
+            <li>
               <p class="main">CPU</p>
               <div class="img">
-                <img src="../img/pc/Ryzen53600x.jpg" alt="53600x" />
+                <img
+                  src="../img/pc/Ryzen53600x.jpg"
+                  alt="53600x"
+                  width="500px"
+                />
               </div>
+            </li>
+            <li>
               <h3>AMD Ryzen 5 3600X, 6C/12T, 3.80-4.40 ГГц</h3>
               <p>
                 Шестиядерний процесор AMD Ryzen 5 3600X OEM-відмінний варіант
@@ -101,14 +95,17 @@
                 target="_blank"
                 >Більше інформаціі тут</a
               >
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </li>
+          </ul>
+
+          <ul class="card-item">
+            <li>
               <p class="main">GPU</p>
               <div class="img">
                 <img src="../img/pc/1660s.jpg" alt="1660s" />
               </div>
+            </li>
+            <li>
               <h3>MSI NVIDIA GeForce GTX 1660SUPER</h3>
               <p>
                 Ефективна відеокарта MSI NVIDIA GeForce GTX 1660SUPER має свою
@@ -123,13 +120,16 @@
                 target="_blank"
                 >Більше інформаціі тут</a
               >
-            </td>
-            <td>
+            </li>
+          </ul>
+          <ul class="card-item">
+            <li>
               <p class="main">COMPUTER CASE</p>
               <div class="img">
                 <img src="../img/pc/enermax.jpg" alt="enermax" />
               </div>
-
+            </li>
+            <li>
               <h3>Enermax Makashi MK50</h3>
               <p>
                 Підтримка адресної синхронізації освітлення RGB Просторий салон
@@ -142,14 +142,16 @@
                 target="_blank"
                 >Більше інформаціі тут</a
               >
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </li>
+          </ul>
+          <ul class="card-item">
+            <li>
               <p class="main">RAM</p>
               <div class="img">
                 <img src="../img/pc/hyperx.jpg" alt="hyperx" />
               </div>
+            </li>
+            <li>
               <h3>HyperX Fury DDR4</h3>
               <p>
                 ЕHyperX Fury DDR4 автоматично розганяється до заданих
@@ -169,13 +171,16 @@
                 target="_blank"
                 >Більше інформаціі тут</a
               >
-            </td>
-            <td>
+            </li>
+          </ul>
+          <ul class="card-item">
+            <li>
               <p class="main">POWER SUPPLY</p>
               <div class="img">
                 <img src="../img/pc/bequiet.jpg" alt="bequite" />
               </div>
-
+            </li>
+            <li>
               <h3>be quiet!</h3>
               <p>
                 System Power 10 U 550W розроблений для економних користувачів,
@@ -191,15 +196,15 @@
                 target="_blank"
                 >Більше інформаціі тут</a
               >
-            </td>
-          </tr>
-        </table>
+            </li>
+          </ul>
+        </div>
         <div class="button">
-          <button class="leftbutton">
+          <button>
             <a href="../pages/games.html"><span>&#8701;</span> GAMES</a>
           </button>
-          <button class="rightbutton">
-            <a href="../index.html">CUBE <span>&#8702;</span></a>
+          <button>
+            <a href="../pages/meals.html">MEALS <span>&#8702;</span></a>
           </button>
         </div>
       </section>
